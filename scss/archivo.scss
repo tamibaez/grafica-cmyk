@@ -1,0 +1,99 @@
+$colorFondo: #f4f3ee;
+$colorNegro: black;
+$colorFooter: #E0CDCD;
+$gris: #DBDBDB;
+$grisOscuro: #909090;
+$fontUno: 'Roboto', sans-serif;
+
+body{
+	background-color: $colorFondo;
+}
+ 
+.logo {
+	padding: 20px;
+}
+
+.fotos {
+	padding-top: 20px;
+	align-items: center;
+}
+
+.img-fluid {
+		transition: 0.5s;
+}
+
+.img-fluid:hover {
+	transform: scale(1.1);
+}
+
+.mdb-lightbox {
+	align-items: center;
+
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: $fontUno;
+	text-align: center;
+	padding: 20px;
+
+}
+h2 {
+	font-family: $fontUno;
+}
+
+h4 {
+	font: $fontUno;
+}
+
+footer {
+	padding-top: 40px;
+}
+
+footer div{
+	background-color: $colorNegro;
+}
+
+.direccion {
+	font-family: $fontUno;
+	padding-left: 40px;
+	text-align: left;
+	align-items: left;
+	color: white;
+	
+}
+
+.medios {
+	padding-top: 40px;
+	padding-right: 200px;
+	font-family: $fontUno;
+	align-items: right;
+	text-align: right;
+	color: white;
+}
+
+/*nosotros*/ 
+
+#infNos {
+	background-color: $gris;
+	padding: 10px;
+	margin: 20px;
+	width: 450px;
+	height: 250px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: $grisOscuro;
+	text-align: justify;
+	padding: 5px;
+}
+
+.nosotros {
+	text-align: center;
+}
+
+.tamCarr {
+	margin: 30px;
+}
